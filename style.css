@@ -1244,6 +1244,7 @@ body {
   color: #fff;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 /* IMPORTANT: scoped container (no navbar conflict) */
@@ -1279,7 +1280,7 @@ body {
 }
 
 .mission-subtext span {
-  color: #a3281d;
+  color: #0d0d0d;
   font-weight: 600;
 }
 
@@ -1287,7 +1288,7 @@ body {
   font-size: 18px;
   max-width: 750px;
   margin: 0 auto 40px;
-  color: #bbb;
+  color: #100f0f;
   line-height: 1.7;
 }
 
@@ -1329,14 +1330,14 @@ body {
 
 .mission-card p {
   font-size: 15px;
-  color: #aaa;
+  color: #0b0a0a;
 }
 
 /* FOOTER */
 .mission-footer {
   margin-top: 40px;
   font-size: 14px;
-  color: #888888;
+  color: #121111;
 }
 
 /* MOBILE */
