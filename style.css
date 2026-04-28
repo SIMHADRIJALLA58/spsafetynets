@@ -301,6 +301,52 @@ body {
   flex-wrap: nowrap;
 } */
 
+
+/* CTA container */
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+/* Common button */
+.cta-btn {
+  width: 170px;              /* equal size */
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+/* Call button */
+.cta-btn.call {
+  background: #e5e5e5;
+  color: #000;
+}
+
+.cta-btn.call:hover {
+  background: #d6d6d6;
+}
+
+/* WhatsApp button */
+.cta-btn.whatsapp {
+  background: #25D366;
+  color: #fff;
+}
+
+.cta-btn.whatsapp:hover {
+  background: #1ebe5d;
+}
+
+
+
+
+
 /* ================= BODY FIX ================= */
 body {
   padding-top: 120px; /* top bar + navbar space */
@@ -2279,4 +2325,5 @@ body {
   opacity: 1;
   visibility: visible;
 }
+
 
