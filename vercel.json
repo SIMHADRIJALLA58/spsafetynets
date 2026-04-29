@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "spsafetynets.vercel.app"
+        }
+      ],
+      "destination": "https://spsafetynets.com/$1",
+      "permanent": true
+    }
+  ]
+}
