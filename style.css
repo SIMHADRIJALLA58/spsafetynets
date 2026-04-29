@@ -1415,6 +1415,7 @@ body {
   color: #121111;
 }
 
+
 /* MOBILE */
 @media (max-width: 768px) {
   .mission-title {
@@ -2180,7 +2181,7 @@ body {
 
 .footer-col p {
   font-size: 14px;
-  color: #555;
+  color: #070000;
   margin-bottom: 8px;
 }
 
@@ -2195,13 +2196,13 @@ body {
 
 .footer-col ul li a {
   text-decoration: none;
-  color: #444;
+  color: #0a0a0a;
   font-size: 14px;
   transition: 0.3s;
 }
 
 .footer-col ul li a:hover {
-  color: #0d6efd;
+  color: #0d0d0d;
 }
 
 /* LOGO */
@@ -2248,7 +2249,7 @@ body {
 }
 
 .footer-newsletter button:hover {
-  background: #084298;
+  background: #8a2b8e;
 }
 
 /* BOTTOM */
@@ -2256,7 +2257,7 @@ body {
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
-  color: #555;
+  color: #050505;
 }
 
 .footer-bottom a {
@@ -2265,6 +2266,10 @@ body {
   margin: 0 5px;
 }
 
+
+.footer{
+  background-color: rgb(127, 183, 179);
+}
 /* RESPONSIVE */
 @media (max-width: 992px) {
   .footer-container {
@@ -2333,26 +2338,32 @@ body {
  
 .scroll-top-btn {
   position: fixed;
-  bottom: 10px;
-  right: 20px;
-  width: 45px;
-  height: 45px;
-  background: #b94a82;
+  bottom: 25px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  background: #a86db4;
   color: #fff;
-  font-size: 22px;
-  text-align: center;
-  line-height: 45px;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
   border-radius: 50%;
-  z-index: 9999;
-
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+  z-index: 999;
 }
 
-.scroll-top-btn.show {
-  opacity: 1;
-  visibility: visible;
+.scroll-top-btn:hover {
+  background: #8f6752;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 
